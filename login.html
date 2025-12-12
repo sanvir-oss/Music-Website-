@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatBay – Feel the Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="login-page">
+        <div class="container">
+
+            <!-- Welcome Section -->
+            <div class="intro">
+                <h1 class="welcome-text">WELCOME TO <br> <span style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;letter-spacing: 5px;">BEATBAY</span></h1>
+                <img src="a5.jpg" alt="Headphones" class="headphone">
+            </div>
+
+            <!-- Form Section -->
+            <div class="form-container">
+                <div class="form login-form active">
+                    <h2>Login</h2>
+                    <input type="email" id="loginemail" placeholder="Email">
+                    <input type="password" id="loginpassword" placeholder="Password">
+                    <button id="loginbtn">Login</button>
+                    <p>Don't have an account? <a href="#" id="showRegister">Register</a></p>
+                </div>
+
+                <div class="form register-form">
+                    <h2>Register</h2>
+                    <input type="text" id="regname" placeholder="Name">
+                    <input type="email" id="regemail" placeholder="Email">
+                    <input type="password" id="regpassword" placeholder="Set Password">
+                    <button id="registerbtn">Register</button>
+                    <p>Already have an account? <a href="#" id="showLogin">Login</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

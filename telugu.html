@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEATBAY - Feel the Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header-bar">
+        <div class="header-options">
+            <div class="header-options-icon"><i class="fa-solid fa-bars"></i></div>
+            <div class="header-options-img"><img src="logo-round.png" alt=""></div>
+            <div class="header-options-input"><input type="search" placeholder="Search songs,albumbs,artists"></div>
+            <div class="loggedinusername" id="loggedinusername"></div>
+            <div class="header-options-a"><a href="login.html">Login</a> <a href="login.html">Register</a></div>
+
+
+
+        </div>
+
+        <div class="header-slidebar">
+            <div class="header-slidebar-options">
+                <div class="aa"><i class="fa-regular fa-house"></i><p>Home</p></div>
+                <div class="aa"><i class="fa-brands fa-wpexplorer"></i><p>Explore</p></div>
+                <div class="aa"><i class="fa-solid fa-download"></i><p>Downloads</p></div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="mainforbackground">
+
+
+        <div class="languages">
+            <div class="lang">
+                <a href="kannada.html">Kannada</a>
+                <a href="english.html">English</a>
+                <a href="hindhi.html">Hindi</a>
+                <a href="tamil.html">Tamil</a>
+                <a href="telugu.html">Telugu</a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="main-songs-section">
+            <div class="trending-songs-title">
+                <h1>Telugu Songs</h1>
+                <div class="trending-songs-list">
+                    <div class="trending-songs" data-src="audio_tracks/telugu/ButtaBomma.m4a">
+                        <img src="audio_tracks/telugu/putta.jp.jpg" alt="">
+                        <h4>Butta Bomma</h4>
+                        <p class="bb">Arman Malik</p>
+                    </div>
+
+
+
+                    <div class="trending-songs" data-src="audio_tracks/telugu/Ramuloo_Ramulaa.m4a">
+                        <img src="audio_tracks/telugu/ramo.jpg" alt="">
+                        <h4>Ramulo Ramula</h4>
+                        <p class="bb">Anurag Kulkarni</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/telugu/Fidaa.m4a">
+                        <img src="audio_tracks/telugu/vach.jpg" alt="">
+                        <h4>Vachinde</h4>
+                        <p class="bb">Madhu Priya</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/telugu/Yemaaya_Chesave_-_Vintunnavaa.m4a">
+                        <img src="audio_tracks/telugu/vac.jpg" alt="">
+                        <h4>Vintunnavaa</h4>
+                        <p class="bb">Shreya Ghoshal</p>
+                    </div>
+
+                    <div class="trending-songs" data-src="audio_tracks/telugu/Yenti_Yenti.m4a">
+                        <img src="audio_tracks/telugu/yenti.jpg" alt="">
+                        <h4>Yenti Yenti</h4>
+                        <p class="bb">Chinmayi</p>
+                    </div>
+
+
+
+
+
+                    <!-- Fullscreen Popup -->
+                        <div id="playerPopup" class="popup-overlay">
+                            <div class="popup-content">
+                                <span class="close-btn">&times;</span>
+                                <img id="popupImage" src="" alt="Song Cover">
+                                <h2 class="song-title" id="popupTitle"></h2>
+                                <audio id="popupAudio" controls></audio>
+                                <i class="fa-solid fa-download download-btn"></i>
+                            </div>
+                        </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="trending-songs-title">
+                <div class="trending-songs-list">
+                    <div class="trending-songs" data-src="audio_tracks/telugu/Mirchi_.m4a">
+                        <img src="audio_tracks/telugu/mir.jpg" alt="">
+                        <h4>Mirchi</h4>
+                        <p class="bb">Vijay Prakash</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/telugu/F2_.m4a">
+                        <img src="audio_tracks/telugu/F2.jpg" alt="">
+                        <h4>Ding Dong</h4>
+                        <p class="bb">Rahul</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/telugu/Baahubali_2_Video_Songs_Telugu___Saahore_Baahubali.m4a">
+                        <img src="audio_tracks/telugu/nipula.jpg" alt="">
+                        <h4>Nippule Swasaga</h4>
+                        <p class="bb">M.M. Keeravaan</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/telugu/ButtaBomma.m4a">
+                        <img src="audio_tracks/telugu/putta.jp.jpg" alt="">
+                        <h4>Butta Bomma</h4>
+                        <p class="bb">Arman Malik</p>
+                    </div>
+
+
+
+                    <div class="trending-songs" data-src="audio_tracks/telugu/Ramuloo_Ramulaa.m4a">
+                        <img src="audio_tracks/telugu/ramo.jpg" alt="">
+                        <h4>Ramulo Ramula</h4>
+                        <p class="bb">Anurag Kulkarni</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+    </div>
+
+
+    
+
+
+
+
+    <script src="audio.js"></script>
+
+
+</body>
+</html>

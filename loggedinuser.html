@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEATBAY - Feel the Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header-bar">
+        <div class="header-options">
+            <div class="header-options-icon"><i class="fa-solid fa-bars"></i></div>
+            <div class="header-options-img"><img src="logo-round.png" alt=""></div>
+            <div class="header-options-input"><input type="search" placeholder="Search songs,albumbs,artists"></div>
+            <div class="loggedinusername" id="loggedinusername"></div>
+            <div class="header-options-aa">Logout</div>
+
+        </div>
+
+        <div class="header-slidebar">
+            <div class="header-slidebar-options">
+                <div class="aa"><i class="fa-regular fa-house"></i><p>Home</p></div>
+                <div class="aa"><i class="fa-brands fa-wpexplorer"></i><p>Explore</p></div>
+                <div class="aa"><i class="fa-solid fa-download"></i><p>Downloads</p></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="mainforbackground">
+
+        <div class="languages">
+            <div class="lang">
+                <a href="kannada.html">Kannada</a>
+                <a href="english.html">English</a>
+                <a href="hindhi.html">Hindi</a>
+                <a href="kannada.html">Tamil</a>
+                <a href="kannada.html">Telugu</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="main-songs-section">
+            <div class="trending-songs-title">
+                <h1>Trending Now</h1>
+                <div class="trending-songs-list">
+                    <div class="trending-songs" data-src="audio_tracks/rahul/Rahul_Dit-O_-_No_Filter.mp3">
+                        <img src="audio_tracks/rahul/no-filter.jpg" alt="">
+                        <h4>No Filter</h4>
+                        <p class="bb">from rahul dito</p>
+                    </div>
+
+
+
+                    <div class="trending-songs" data-src="audio_tracks/rahul/Rahul_Dit-O_-_Power_Star.mp3">
+                        <img src="audio_tracks/rahul/power.jfif" alt="">
+                        <h4>power</h4>
+                        <p class="bb">from rahul dito</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/badshah/Badshah_-_Mercy.mp3">
+                        <img src="audio_tracks/badshah/mercy.jfif" alt="">
+                        <h4>Mercy</h4>
+                        <p class="bb">from Badshah</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/chandan/Chandan_Shetty_-_Chocolate_Girl.mp3">
+                        <img src="audio_tracks/chandan/chocolate_girl.jfif" alt="">
+                        <h4>Chocolate girl</h4>
+                        <p class="bb">from Chandan shetty</p>
+                    </div>
+
+                    <div class="trending-songs" data-src="audio_tracks/Yeh_Jawaani_Hai_Deewani_-_Badtameez_Dil.mp3">
+                        <img src="audio_tracks/songs_poster/badtameez.jfif" alt="">
+                        <h4>Badtameez Dil</h4>
+                        <p class="bb">from Benny Dayal</p>
+                    </div>
+
+
+
+
+
+                    <!-- Fullscreen Popup -->
+                        <div id="playerPopup" class="popup-overlay">
+                            <div class="popup-content">
+                                <span class="close-btn">&times;</span>
+                                <img id="popupImage" src="" alt="Song Cover">
+                                <h2 class="song-title" id="popupTitle"></h2>
+                                <audio id="popupAudio" controls></audio>
+                                <i class="fa-solid fa-download download-btn"></i>
+                            </div>
+                        </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="trending-songs-title">
+                <h1>New Releases</h1>
+                <div class="trending-songs-list">
+                    <div class="trending-songs" data-src="audio_tracks/rahul/Rahul_Dit-O_-_That_s_OK.mp3">
+                        <img src="audio_tracks/rahul/thats-ok.jpg" alt="">
+                        <h4>That's OK</h4>
+                        <p class="bb">from rahul dito</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/Yeh_Jawaani_Hai_Deewani_-_Balam_Pichkari_Song.mp3">
+                        <img src="audio_tracks/songs_poster/balma_pichkari.jpg" alt="">
+                        <h4>Balam Pichkari</h4>
+                        <p class="bb">from Amitabh</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/Edd_Sheeran_-_Shape_Of_You.mp3">
+                        <img src="audio_tracks/songs_poster/shape_of_you.jfif" alt="">
+                        <h4>Shape of You</h4>
+                        <p class="bb">from Ed Sheeran</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/eminem/Eminem_-_Underground.mp3">
+                        <img src="audio_tracks/eminem/underground.jfif" alt="">
+                        <h4>Underground</h4>
+                        <p class="bb">from Eminem</p>
+                    </div>
+
+                    <div class="trending-songs" data-src="audio_tracks/eminem/Eminem_-_Rap_God.mp3">
+                        <img src="audio_tracks/eminem/rap_god.jfif" alt="">
+                        <h4>Rap God</h4>
+                        <p class="bb">from Eminem</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="trending-songs-title">
+                <h1>Popular Artists</h1>
+                <div class="trending-songs-list">
+                    <div class="trending-songs1">
+                        <a href="anirudh_ravichander.html">
+                            <img src="html4/anirud.jpg" alt="">
+                            <h4>Anirudh Ravichander</h4>
+                        </a>
+                    </div>
+
+
+                    <div class="trending-songs1">
+                        <a href="">
+                            <img src="html4/badshah.jpg" alt="">
+                            <h4>Badshah</h4>
+                        </a>
+                    </div>
+
+
+                    <div class="trending-songs1">
+                        <a href="">
+                            <img src="html4/chandan.jpg" alt="">
+                            <h4>Chandan shetty</h4>
+                        </a>
+                    </div>
+
+
+                    <div class="trending-songs1">
+                        <a href="">
+                            <img src="html4/eminem.jpg" alt="">
+                            <h4>Eminem</h4>
+                        </a>
+                    </div>
+
+                    <div class="trending-songs1">
+                        <a href="">
+                            <img src="html4/rahul.jpg" alt="">
+                            <h4>Rahul Dit-o</h4>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+            <div class="trending-songs-title">
+                <h1>Genres</h1>
+                <div class="trending-songs-list">
+                    <div class="trending-songs">
+                        <a href="">
+                            <img src="html4/hip.jpg" alt="">
+                            <h4>Hip Hop</h4>
+                        </a>
+                    </div>
+
+
+                    <div class="trending-songs">
+                        <a href="">
+                            <img src="html4/rap.jpg" alt="">
+                            <h4>Rap songs</h4>
+                        </a>
+                    </div>
+
+
+                    <div class="trending-songs">
+                        <a href="">
+                            <img src="html4/albumb.jpg" alt="">
+                            <h4>Albumbs</h4>
+                        </a>
+                    </div>
+
+
+                    <div class="trending-songs">
+                        <a href="">
+                            <img src="html4/boliwood.jpg" alt="">
+                            <h4>Bollywood songs</h4>
+                        </a>
+                    </div>
+
+                    <div class="trending-songs">
+                        <a href="">
+                            <img src="html4/mel.jpg" alt="">
+                            <h4>Melody</h4>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <script src="audio.js"></script>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  // Handle sidebar downloads button click
+  document.querySelectorAll(".aa").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const label = btn.querySelector("p")?.innerText.trim();
+      const loggedUser = localStorage.getItem("logedinuser");
+
+      if (label === "Downloads") {
+        if (!loggedUser) {
+          alert("You have not logged in! Please login first to access your downloads.");
+          return;
+        }
+        window.location.href = "downloads.html";
+      }
+
+    });
+  });
+
+  // Handle song downloads
+  document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("download-btn")) {
+      const loggedUser = localStorage.getItem("logedinuser");
+      if (!loggedUser) {
+        alert("Please login first to download songs!");
+        return;
+      }
+
+      const songCard = e.target.closest(".popup-content");
+      const title = songCard.querySelector(".song-title").innerText;
+      const image = songCard.querySelector("img").src;
+      const audio = songCard.querySelector("audio").src;
+
+      const storageKey = `downloadedSongs_${loggedUser}`;
+      let downloads = JSON.parse(localStorage.getItem(storageKey)) || [];
+
+      if (downloads.some(song => song.title === title)) {
+        alert("This song is already in your downloads.");
+        return;
+      }
+
+      downloads.push({ title, image, audio });
+      localStorage.setItem(storageKey, JSON.stringify(downloads));
+      alert(`"${title}" has been added to your downloads!`);
+    }
+  });
+
+  // Logout functionality
+  const logoutBtn = document.querySelector(".header-options-aa");
+  if (logoutBtn) {
+    logoutBtn.addEventListener("click", () => {
+      const loggedUser = localStorage.getItem("logedinuser");
+      if (loggedUser) {
+        localStorage.removeItem("logedinuser");
+        alert("Logged out successfully!");
+        window.location.href = "home.html";
+      } else {
+        alert("No user is currently logged in.");
+      }
+    });
+  }
+});
+</script>
+
+
+</body>
+</html>

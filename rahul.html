@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEATBAY - Feel the Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header-bar">
+        <div class="header-options">
+            <div class="header-options-icon"><i class="fa-solid fa-bars"></i></div>
+            <div class="header-options-img"><img src="logo-round.png" alt=""></div>
+            <div class="header-options-input"><input type="search" placeholder="Search songs,albumbs,artists"></div>
+            <div class="loggedinusername" id="loggedinusername"></div>
+
+
+            <div class="header-options-a"><a href="login.html">Login</a> <a href="login.html">Register</a></div>
+
+        </div>
+
+        <div class="header-slidebar">
+            <div class="header-slidebar-options">
+                <div class="aa"><i class="fa-regular fa-house"></i><p>Home</p></div>
+                <div class="aa"><i class="fa-brands fa-wpexplorer"></i><p>Explore</p></div>
+                <div class="aa"><i class="fa-solid fa-download"></i><p>Downloads</p></div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="mainforbackground">
+
+
+
+    <div class="main-songs-section">
+            <div class="trending-songs-title">
+                <h1>Rahul Dit-o</h1>
+                <div class="trending-songs-list">
+                    <div class="trending-songs" data-src="audio_tracks/Anirudh/Anirudh_Ravichander_-_JD_the_Alcoholic.mp3">
+                        <img src="audio_tracks/Anirudh/JD_alcoholic.jfif" alt="">
+                        <h4>JD the alcoholic</h4>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/Anirudh/Anirudh_Ravichander_-_The_Theri_Theme.mp3">
+                        <img src="audio_tracks/Anirudh/theri.jfif" alt="">
+                        <h4>Theri</h4>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/Anirudh/Anirudh_Ravichander_-_Uyire_Un_Uyirena.mp3">
+                        <img src="audio_tracks/Anirudh/uyire.jfif" alt="">
+                        <h4>uyire un uyire</h4>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/Anirudh/Anirudh_Ravichander_Hey.mp3">
+                        <img src="audio_tracks/Anirudh/hey.jfif" alt="">
+                        <h4>anirudh</h4>
+                    </div>
+
+                    <div class="trending-songs" data-src="audio_tracks/Anirudh/Anirudh_Ravichander_-_JD_the_Alcoholic.mp3">
+                        <img src="audio_tracks/Anirudh/JD_alcoholic.jfif" alt="">
+                        <h4>JD the alcoholic</h4>
+                    </div>
+
+
+                    <!-- Fullscreen Popup -->
+                        <div id="playerPopup" class="popup-overlay">
+                            <div class="popup-content">
+                                <span class="close-btn">&times;</span>
+                                <img id="popupImage" src="" alt="Song Cover">
+                                <h2 class="song-title" id="popupTitle"></h2>
+                                <audio id="popupAudio" controls></audio>
+                                <i class="fa-solid fa-download download-btn"></i>
+                            </div>
+                        </div>
+
+
+
+
+                </div>
+            </div>
+
+
+            <div class="trending-songs-title">
+                <h1>Anirudh Ravichander</h1>
+                <div class="trending-songs-list">
+                    <div class="trending-songs" data-src="audio_tracks/Anirudh/Anirudh_Ravichander_-_JD_the_Alcoholic.mp3">
+                        <img src="audio_tracks/Anirudh/JD_alcoholic.jfif" alt="">
+                        <h4>JD the alcoholic</h4>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/Anirudh/Anirudh_Ravichander_-_The_Theri_Theme.mp3">
+                        <img src="audio_tracks/Anirudh/theri.jfif" alt="">
+                        <h4>Theri</h4>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/Anirudh/Anirudh_Ravichander_-_Uyire_Un_Uyirena.mp3">
+                        <img src="audio_tracks/Anirudh/uyire.jfif" alt="">
+                        <h4>uyire un uyire</h4>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/Anirudh/Anirudh_Ravichander_Hey.mp3">
+                        <img src="audio_tracks/Anirudh/hey.jfif" alt="">
+                        <h4>anirudh</h4>
+                    </div>
+
+                    <div class="trending-songs" data-src="audio_tracks/Anirudh/Anirudh_Ravichander_-_JD_the_Alcoholic.mp3">
+                        <img src="audio_tracks/Anirudh/JD_alcoholic.jfif" alt="">
+                        <h4>JD the alcoholic</h4>
+                    </div>
+
+                </div>
+            </div>
+
+    </div>
+
+    <script src="audio.js"></script>
+
+</body>
+</html>

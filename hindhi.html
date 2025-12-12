@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEATBAY - Feel the Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header-bar">
+        <div class="header-options">
+            <div class="header-options-icon"><i class="fa-solid fa-bars"></i></div>
+            <div class="header-options-img"><img src="logo-round.png" alt=""></div>
+            <div class="header-options-input"><input type="search" placeholder="Search songs,albumbs,artists"></div>
+            <div class="loggedinusername" id="loggedinusername"></div>
+            <div class="header-options-a"><a href="login.html">Login</a> <a href="login.html">Register</a></div>
+
+
+
+        </div>
+
+        <div class="header-slidebar">
+            <div class="header-slidebar-options">
+                <div class="aa"><i class="fa-regular fa-house"></i><p>Home</p></div>
+                <div class="aa"><i class="fa-brands fa-wpexplorer"></i><p>Explore</p></div>
+                <div class="aa"><i class="fa-solid fa-download"></i><p>Downloads</p></div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="mainforbackground">
+
+
+        <div class="languages">
+            <div class="lang">
+                <a href="kannada.html">Kannada</a>
+                <a href="english.html">English</a>
+                <a href="hindhi.html">Hindi</a>
+                <a href="tamil.html">Tamil</a>
+                <a href="telugu.html">Telugu</a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="main-songs-section">
+            <div class="trending-songs-title">
+                <h1>Hindhi Songs</h1>
+                <div class="trending-songs-list">
+                    <div class="trending-songs" data-src="audio_tracks/Yeh_Jawaani_Hai_Deewani_-_Badtameez_Dil.mp3">
+                        <img src="audio_tracks/songs_poster/badtameez.jfif" alt="">
+                        <h4>Badtameez Dil</h4>
+                        <p class="bb">Ranveer Singh</p>
+                    </div>
+
+
+
+                    <div class="trending-songs" data-src="audio_tracks/Yeh_Jawaani_Hai_Deewani_-_Balam_Pichkari_Song.mp3">
+                        <img src="audio_tracks/songs_poster/balma_pichkari.jpg" alt="">
+                        <h4>Balam Pichkari</h4>
+                        <p class="bb">Amitabh</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/hindhi/Give_Me_Some_Sunshine.m4a">
+                        <img src="audio_tracks/hindhi/idiots.jpg" alt="">
+                        <h4>Give me Some Sunshine</h4>
+                        <p class="bb">Suraj jagan</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/hindhi/Chikni_Chameli.m4a">
+                        <img src="audio_tracks/hindhi/chi.jpg" alt="">
+                        <h4>Chikni Chameli</h4>
+                        <p class="bb">Shreya Ghoshal</p>
+                    </div>
+
+                    <div class="trending-songs" data-src="audio_tracks/hindhi/Kesariya.m4a">
+                        <img src="audio_tracks/hindhi/kes.jpg" alt="">
+                        <h4>Kesariya</h4>
+                        <p class="bb">Arjith singh</p>
+                    </div>
+
+
+
+
+
+                    <!-- Fullscreen Popup -->
+                        <div id="playerPopup" class="popup-overlay">
+                            <div class="popup-content">
+                                <span class="close-btn">&times;</span>
+                                <img id="popupImage" src="" alt="Song Cover">
+                                <h2 class="song-title" id="popupTitle"></h2>
+                                <audio id="popupAudio" controls></audio>
+                                <i class="fa-solid fa-download download-btn"></i>
+                            </div>
+                        </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="trending-songs-title">
+                <div class="trending-songs-list">
+                    <div class="trending-songs" data-src="audio_tracks/hindhi/wt jumka.m4a">
+                        <img src="audio_tracks/hindhi/jumka.jpg" alt="">
+                        <h4>What jhumka ?</h4>
+                        <p class="bb">Jonitha Ghandi</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/badshah/Badshah_feat._Payal_Dev_-_Genda_Phool.mp3">
+                        <img src="audio_tracks/badshah/genda-pool.jfif" alt="">
+                        <h4>Genda Pool</h4>
+                        <p class="bb">Badshah</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/hindhi/Yeh Ishq.m4a">
+                        <img src="audio_tracks/hindhi/ash.jpg" alt="">
+                        <h4>Yeh Ishq</h4>
+                        <p class="bb">Shreya Ghoshal</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/badshah/Badshah_-_Paagal.mp3">
+                        <img src="audio_tracks/badshah/pagal.jfif" alt="">
+                        <h4>Paagal</h4>
+                        <p class="bb">Badshah</p>
+                    </div>
+
+                    <div class="trending-songs" data-src="audio_tracks/hindhi/Chaleya__.m4a">
+                        <img src="audio_tracks/hindhi/che.jpg" alt="">
+                        <h4>Chaleya</h4>
+                        <p class="bb">Shilpa Rao</p>
+                    </div>
+
+                </div>
+            </div>
+    </div>
+
+
+    
+
+
+
+    <script src="audio.js"></script>
+
+
+</body>
+</html>

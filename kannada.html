@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEATBAY - Feel the Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header-bar">
+        <div class="header-options">
+            <div class="header-options-icon"><i class="fa-solid fa-bars"></i></div>
+            <div class="header-options-img"><img src="logo-round.png" alt=""></div>
+            <div class="header-options-input"><input type="search" placeholder="Search songs,albumbs,artists"></div>
+            <div class="loggedinusername" id="loggedinusername"></div>
+            <div class="header-options-a"><a href="login.html">Login</a> <a href="login.html">Register</a></div>
+
+
+
+        </div>
+
+        <div class="header-slidebar">
+            <div class="header-slidebar-options">
+                <div class="aa"><i class="fa-regular fa-house"></i><p>Home</p></div>
+                <div class="aa"><i class="fa-brands fa-wpexplorer"></i><p>Explore</p></div>
+                <div class="aa"><i class="fa-solid fa-download"></i><p>Downloads</p></div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="mainforbackground">
+
+
+        <div class="languages">
+            <div class="lang">
+                <a href="kannada.html">Kannada</a>
+                <a href="english.html">English</a>
+                <a href="hindhi.html">Hindi</a>
+                <a href="tamil.html">Tamil</a>
+                <a href="telugu.html">Telugu</a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="main-songs-section">
+            <div class="trending-songs-title">
+                <h1>Kannada Songs</h1>
+                <div class="trending-songs-list">
+                    <div class="trending-songs" data-src="audio_tracks/rahul/Rahul_Dit-O_-_No_Filter.mp3">
+                        <img src="audio_tracks/rahul/no-filter.jpg" alt="">
+                        <h4>No Filter</h4>
+                        <p class="bb">rahul dito</p>
+                    </div>
+
+
+
+                    <div class="trending-songs" data-src="audio_tracks/rahul/Rahul_Dit-O_-_Power_Star.mp3">
+                        <img src="audio_tracks/rahul/power.jfif" alt="">
+                        <h4>power</h4>
+                        <p class="bb">rahul dito</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/kannada/Katheyonda_Helide.m4a">
+                        <img src="audio_tracks/kannada/Katheyondu-Helide.jpg" alt="">
+                        <h4>Katheyondhu Helidhe</h4>
+                        <p class="bb">B. Ajaneesh Loknath</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/chandan/Chandan_Shetty_-_Chocolate_Girl.mp3">
+                        <img src="audio_tracks/chandan/chocolate_girl.jfif" alt="">
+                        <h4>Chocolate girl</h4>
+                        <p class="bb">Chandan shetty</p>
+                    </div>
+
+                    <div class="trending-songs" data-src="audio_tracks/kannada/Saaluthillave.m4a">
+                        <img src="audio_tracks/kannada/Saaluthillave.jpg" alt="">
+                        <h4>Saaluthillave</h4>
+                        <p class="bb">Vijay Prakash</p>
+                    </div>
+
+
+
+
+
+                    <!-- Fullscreen Popup -->
+                        <div id="playerPopup" class="popup-overlay">
+                            <div class="popup-content">
+                                <span class="close-btn">&times;</span>
+                                <img id="popupImage" src="" alt="Song Cover">
+                                <h2 class="song-title" id="popupTitle"></h2>
+                                <audio id="popupAudio" controls></audio>
+                                <i class="fa-solid fa-download download-btn"></i>
+                            </div>
+                        </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="trending-songs-title">
+                <div class="trending-songs-list">
+                    <div class="trending-songs" data-src="audio_tracks/chandan/Chandan_Shetty_-_3_Peg.mp3">
+                        <img src="audio_tracks/chandan/party_freak.jfif" alt="">
+                        <h4>3 peg </h4>
+                        <p class="bb">Chandan shetty</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/rahul/Rahul_Dit_O_-_Nangansiddu.mp3">
+                        <img src="audio_tracks/rahul/nangansidhu.jfif" alt="">
+                        <h4>Nangansidhu</h4>
+                        <p class="bb">rahul dito</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/rahul/Rahul_Dit-O_-_Rocky_Bhai.mp3">
+                        <img src="audio_tracks/rahul/rahul-dito-photo.jfif" alt="">
+                        <h4>Rocky Bhai</h4>
+                        <p class="bb">rahul dito</p>
+                    </div>
+
+
+                    <div class="trending-songs" data-src="audio_tracks/kannada/Madana_Mana_Mohini.m4a">
+                        <img src="audio_tracks/kannada/madana.jpg" alt="">
+                        <h4>Madana Mana Mohini</h4>
+                        <p class="bb">Ananya Bhat</p>
+                    </div>
+
+                    <div class="trending-songs" data-src="audio_tracks/kannada/RAAJAKUMARa.m4a">
+                        <img src="audio_tracks/kannada/rajakumara.jpg" alt="">
+                        <h4>Bombe Heluthaithe</h4>
+                        <p class="bb">Vijay Prakash</p>
+                    </div>
+
+                </div>
+            </div>
+    </div>
+
+
+   
+
+
+
+    <script src="audio.js"></script>
+
+
+</body>
+</html>
