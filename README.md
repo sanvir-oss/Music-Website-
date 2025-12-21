@@ -1,4 +1,4 @@
-# Music Website
+# Beat Bay Music Website
 
 A fully responsive **music player website** built using **HTML, CSS, JavaScript**, and local song files. This project demonstrates web development skills, playback functionality, user registration, and responsive design.
 
@@ -6,6 +6,7 @@ A fully responsive **music player website** built using **HTML, CSS, JavaScript*
 
 ## Features
 - **User Registration/Login:** Users need to register to access song downloads.
+- 
 - **Search Songs:** Users can search for songs using the built-in search bar.
 - **Playback Functionality:** Play, pause, and skip tracks directly in the browser.
 - **Download Songs:** Registered users can download songs directly.
